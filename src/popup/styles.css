@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 320px;
+    padding: 16px;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #c00;
+  }
+  
+  .form-group {
+    margin-bottom: 12px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #c00;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #a00;
+  }
+  
+  .keyword-chip {
+    display: inline-block;
+    background-color: #eee;
+    padding: 4px 8px;
+    margin: 2px;
+    border-radius: 16px;
+    font-size: 12px;
+  }
+  
+  .keyword-chip button {
+    background: none;
+    border: none;
+    color: #666;
+    padding: 0 0 0 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .status-message {
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+  }
+  
+  .status-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+  
+  .status-error {
+    background-color: #f2dede;
+    color: #a94442;
+  }

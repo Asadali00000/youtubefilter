@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Content Filter for YouTube",
+  "version": "1.0",
+  "description": "Filter videos on YouTube™ with custom rules",
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
